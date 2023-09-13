@@ -1,4 +1,4 @@
-Pythagorean theorem
+// Pythagorean theorem
 
 const pythagorean = (a, b) => Math.sqrt(a * a + b * b);
 const a = 5;
@@ -10,7 +10,7 @@ console.log(`довжина гiпотенузи (c): ${c}`);
 ////////////////////////////////////////////////////////////////////////////////
 
 
-Format number in spaces
+// Format number in spaces
 
 const formatNumber = (num) => {
     return num.toLocaleString();
@@ -20,7 +20,7 @@ console.log(formatNumber(1223.65378));
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-Write a password generator with length n
+// Write a password generator with length n
 
 const generatePassword = (n) => {
     const characters = '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz';
@@ -42,7 +42,7 @@ const generatePassword = (n) => {
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
-Calculate percentage with n numbers after dot
+// Calculate percentage with n numbers after dot
 
 
 const calc = (firstNum, secondNum, precision) => {
@@ -56,7 +56,7 @@ console.log(calc(200, 0.14, 1));
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
-Get integer part of number and decimal
+// Get integer part of number and decimal
 
 
 const splitNumber = (num) => {
